@@ -1,0 +1,84 @@
+.routes-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.routes-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.routes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.bus-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.bus-card:hover {
+  transform: scale(1.02);
+}
+
+.bus-card h3 {
+  color: #0288d1;
+  margin-bottom: 0.5rem;
+}
+
+.bus-card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.seats-status {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.seats-full {
+  color: red;
+}
+
+.seats-low {
+  color: orangered;
+}
+
+.seats-medium {
+  color: orange;
+}
+
+.seats-available {
+  color: green;
+}
+
+.book-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.book-btn:hover {
+  background-color: #0277bd;
+}
+
+.book-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

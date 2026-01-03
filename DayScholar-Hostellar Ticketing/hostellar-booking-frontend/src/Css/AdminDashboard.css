@@ -1,0 +1,47 @@
+.admin-dashboard {
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.admin-dashboard h2 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+.admin-dashboard button {
+  background-color: #0288d1;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-dashboard button:hover {
+  background-color: #0277bd;
+}
+
+.admin-dashboard table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard th,
+.admin-dashboard td {
+  padding: 12px 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.admin-dashboard th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.admin-dashboard tr:nth-child(even) {
+  background-color: #fafafa;
+}
